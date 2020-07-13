@@ -1,0 +1,18 @@
+{
+  "name": "demo-node",
+  "version": "1.0.0",
+  "description": "result api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "aaa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "nodemon": "^2.0.4"
+  }
+}
